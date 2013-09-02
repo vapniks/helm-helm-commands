@@ -1,0 +1,36 @@
+* Library Information
+ Readme.org --- List all helm commands with helm
+
+ - Filename :: [[file:helm-helm-commands.el][helm-helm-commands.el]]
+ - Description :: List all helm commands with helm
+ - Author :: Joe Bloggs <vapniks@yahoo.com>
+ - Maintainer :: Joe Bloggs <vapniks@yahoo.com>
+ - Copyleft (Ↄ) 2013, Joe Bloggs, all rites reversed.
+ - Created :: 2013-09-02 15:25:22
+ - Version :: 0.1
+ - Last-Updated :: 2013-09-02 15:25:22
+ -           By :: Joe Bloggs
+ - URL :: https://github.com/vapniks/helm-helm-commands
+ - Keywords :: convenience
+ - Compatibility :: GNU Emacs 24.3.1
+ - Package-Requires :: ((helm "1.5.4"))
+
+* Possible Dependencies
+
+helm
+
+* Commentary
+
+ - Bitcoin donations gratefully accepted :: 16iXhMdmTBcmrJAcDyv1H371mjXZNfDg7z
+
+This provides a single command `helm-helm-commands' which will present a helm buffer 
+containing a list of helm commands and short descriptions. You can press C-z on an item
+to see a longer description of the command, and RET to execute the command.
+
+* Installation
+
+ - If you have [[http://www.marmalade-repo.org/][marmalade-repo.org]], this helm-helm-commands is part of the emacs packages you can install.  
+ - Just type M-x package-install helm-helm-commands marmalade 
+ - Otherwise download the library from here Lisp:helm-helm-commands, and put it in a directory in the emacs load path, 
+   (like ~/.emacs.d)
+ - Add (require 'helm-helm-commands) in your ~/.emacs file
