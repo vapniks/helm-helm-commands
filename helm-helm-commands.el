@@ -108,8 +108,8 @@
     (action . (("Execute helm command" .
                 (lambda (candidate)
                   (call-interactively candidate)))
-               ("Describe command" . describe-command)))
-    (persistent-action . describe-command)))
+               ("Describe command" . describe-function)))
+    (persistent-action . describe-function)))
 
 ;;;###autoload
 (defun helm-helm-commands nil
